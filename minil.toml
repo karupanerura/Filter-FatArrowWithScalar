@@ -1,0 +1,6 @@
+name = "Filter-FatArrowWithScalar"
+# badges = ["travis"]
+authority="cpan:MF"
+
+module_maker="ModuleBuildTiny"
+
