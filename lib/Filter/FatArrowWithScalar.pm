@@ -13,7 +13,7 @@ sub import {
         my $status;
         if ($status = filter_read()) {
             die "filter abort. status: $status. " if $status < 0;
-            s/=> ?/=> scalar /g;
+            s/=> ?(?!\s*\()/=> scalar /msg;
         }
         return $status;
     };

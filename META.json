@@ -52,6 +52,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/karupanerura/Filter-FatArrowWithScalar/issues"
+      },
+      "homepage" : "https://github.com/karupanerura/Filter-FatArrowWithScalar",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/karupanerura/Filter-FatArrowWithScalar.git",
+         "web" : "https://github.com/karupanerura/Filter-FatArrowWithScalar"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:MF"
 }
